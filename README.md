@@ -7,7 +7,7 @@
 ## 🎨 Layout
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="predictionProjets" title="#predictionProjets" src="./assets/mages/1.gif" width="800px">
+  <img alt="predictionProjets" title="#predictionProjets" src="./assets/1.gif" width="800px">
 </p>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
