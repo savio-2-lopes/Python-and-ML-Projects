@@ -7,19 +7,19 @@
 ## 🎨 Layout
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="predictionProjets" title="#predictionProjets" src="./src/assets/images/01.gif" width="800px">
+  <img alt="predictionProjets" title="#predictionProjets" src="./assets/images/01.gif" width="800px">
 </p>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="predictionProjets" title="#predictionProjets" src="./src/assets/images/01.gif" width="800px">
+  <img alt="predictionProjets" title="#predictionProjets" src="./assets/images/01.gif" width="800px">
 </p>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="predictionProjets" title="#predictionProjets" src="./src/assets/images/02.gif" width="800px">
+  <img alt="predictionProjets" title="#predictionProjets" src="./assets/images/02.gif" width="800px">
 </p>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="predictionProjets" title="#predictionProjets" src="./src/assets/images/03.gif" width="800px">
+  <img alt="predictionProjets" title="#predictionProjets" src="./assets/images/03.gif" width="800px">
 </p>
 
 <br>
