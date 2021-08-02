@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="mt-5"></div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="mt-4 container py-5">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <h2 class="h2 text-center alert alert-secondary">Realizar previsão de espécies de Iris</h2>
+          <form action="{{ url_for('predicao')}}" method="POST" class="text-muted">
+            <div class="mb-3">
+              <label for="comprimentoSepala" class="mt-4 form-label">Comprimento da Sépala</label>
+              <input type="number" step="any" required class="form-control" id="comprimentoSepala"
+                name="comprimento_sepala" max="200">
+            </div>
+
+            <div class="mb-3">
+              <label for="tamanhoSepala" class="form-label">Tamanho da Sépala</label>
+              <input type="number" step="any" required class="form-control" id="tamanhoSepala" name="tamanho_sepala"
+                max="200">
+            </div>
+
+            <div class="mb-3">
+              <label for="comprimentoPetala" class="form-label">Comprimento da Pétala</label>
+              <input type="number" step="any" required class="form-control" id="comprimentoPetala"
+                name="comprimento_petala" max="200">
+            </div>
+
+            <div class="mb-3">
+              <label for="tamanhoPetala" class="form-label">Tamanho da Pétala</label>
+              <input type="number" step="any" required class="form-control" id="tamanhoPetala" name="tamanho_petala">
+            </div>
+
+            <div class="mt-5 d-grid gap-2">
+              <button type="submit" class="btn btn-secondary">
+                Realizar predição
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock body %}

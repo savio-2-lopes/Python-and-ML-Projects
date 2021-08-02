@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="mt-5 container-fluid my-5 text-center">
+  <div class="row py-2">
+    <div class="col-md-6 offset-md-3">
+      {% if prediction==1 %}
+      <h2 class="h2 mt-5 alert alert-danger">
+        &#128542; Opps! Você tem um risco maior de ter diabetes,consulte um médico.
+      </h2>
+      {% else %}
+      <h2 class="h2 mt-5 alert alert-success">
+        &#128522; Wow! Você tem um risco menor de diabetes
+      </h2>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="mt-4 row">
+    <div class="col-md-6 offset-md-3">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Seus</th>
+            <th scope="col">Detalhes</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th scope="row">número de gravidez</th>
+            <td>{{pg}}</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Glicose (mg/dL)</th>
+            <td>{{gl}}</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Pressão arterial (mmHg)</th>
+            <td>{{bp}}</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Espessura da Pele (mm)</th>
+            <td>{{st}}</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Nível de insulina (IU/mL)</th>
+            <td>{{insulin}}</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Índice de massa corporal (kg/m²)</th>
+            <td>{{bmi}}</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Função de Linhagem de Diabetes</th>
+            <td>{{db}}</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Idade</th>
+            <td>{{age}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+{% endblock body %}

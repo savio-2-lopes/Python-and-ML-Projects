@@ -1,0 +1,1052 @@
+[
+    {
+        "comprimento_sepala": 5.1,
+        "tamanho_sepala": 3.5,
+        "comprimento_petala": 1.4,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 4.9,
+        "tamanho_sepala": 3,
+        "comprimento_petala": 1.4,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 4.7,
+        "tamanho_sepala": 3.2,
+        "comprimento_petala": 1.3,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 4.6,
+        "tamanho_sepala": 3.1,
+        "comprimento_petala": 1.5,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5,
+        "tamanho_sepala": 3.6,
+        "comprimento_petala": 1.4,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5.4,
+        "tamanho_sepala": 3.9,
+        "comprimento_petala": 1.7,
+        "tamanho_petala": 0.4,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 4.6,
+        "tamanho_sepala": 3.4,
+        "comprimento_petala": 1.4,
+        "tamanho_petala": 0.3,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5,
+        "tamanho_sepala": 3.4,
+        "comprimento_petala": 1.5,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 4.4,
+        "tamanho_sepala": 2.9,
+        "comprimento_petala": 1.4,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 4.9,
+        "tamanho_sepala": 3.1,
+        "comprimento_petala": 1.5,
+        "tamanho_petala": 0.1,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5.4,
+        "tamanho_sepala": 3.7,
+        "comprimento_petala": 1.5,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 4.8,
+        "tamanho_sepala": 3.4,
+        "comprimento_petala": 1.6,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 4.8,
+        "tamanho_sepala": 3,
+        "comprimento_petala": 1.4,
+        "tamanho_petala": 0.1,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 4.3,
+        "tamanho_sepala": 3,
+        "comprimento_petala": 1.1,
+        "tamanho_petala": 0.1,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5.8,
+        "tamanho_sepala": 4,
+        "comprimento_petala": 1.2,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5.7,
+        "tamanho_sepala": 4.4,
+        "comprimento_petala": 1.5,
+        "tamanho_petala": 0.4,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5.4,
+        "tamanho_sepala": 3.9,
+        "comprimento_petala": 1.3,
+        "tamanho_petala": 0.4,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5.1,
+        "tamanho_sepala": 3.5,
+        "comprimento_petala": 1.4,
+        "tamanho_petala": 0.3,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5.7,
+        "tamanho_sepala": 3.8,
+        "comprimento_petala": 1.7,
+        "tamanho_petala": 0.3,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5.1,
+        "tamanho_sepala": 3.8,
+        "comprimento_petala": 1.5,
+        "tamanho_petala": 0.3,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5.4,
+        "tamanho_sepala": 3.4,
+        "comprimento_petala": 1.7,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5.1,
+        "tamanho_sepala": 3.7,
+        "comprimento_petala": 1.5,
+        "tamanho_petala": 0.4,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 4.6,
+        "tamanho_sepala": 3.6,
+        "comprimento_petala": 1,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5.1,
+        "tamanho_sepala": 3.3,
+        "comprimento_petala": 1.7,
+        "tamanho_petala": 0.5,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 4.8,
+        "tamanho_sepala": 3.4,
+        "comprimento_petala": 1.9,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5,
+        "tamanho_sepala": 3,
+        "comprimento_petala": 1.6,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5,
+        "tamanho_sepala": 3.4,
+        "comprimento_petala": 1.6,
+        "tamanho_petala": 0.4,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5.2,
+        "tamanho_sepala": 3.5,
+        "comprimento_petala": 1.5,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5.2,
+        "tamanho_sepala": 3.4,
+        "comprimento_petala": 1.4,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 4.7,
+        "tamanho_sepala": 3.2,
+        "comprimento_petala": 1.6,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 4.8,
+        "tamanho_sepala": 3.1,
+        "comprimento_petala": 1.6,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5.4,
+        "tamanho_sepala": 3.4,
+        "comprimento_petala": 1.5,
+        "tamanho_petala": 0.4,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5.2,
+        "tamanho_sepala": 4.1,
+        "comprimento_petala": 1.5,
+        "tamanho_petala": 0.1,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5.5,
+        "tamanho_sepala": 4.2,
+        "comprimento_petala": 1.4,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 4.9,
+        "tamanho_sepala": 3.1,
+        "comprimento_petala": 1.5,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5,
+        "tamanho_sepala": 3.2,
+        "comprimento_petala": 1.2,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5.5,
+        "tamanho_sepala": 3.5,
+        "comprimento_petala": 1.3,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 4.9,
+        "tamanho_sepala": 3.6,
+        "comprimento_petala": 1.4,
+        "tamanho_petala": 0.1,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 4.4,
+        "tamanho_sepala": 3,
+        "comprimento_petala": 1.3,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5.1,
+        "tamanho_sepala": 3.4,
+        "comprimento_petala": 1.5,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5,
+        "tamanho_sepala": 3.5,
+        "comprimento_petala": 1.3,
+        "tamanho_petala": 0.3,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 4.5,
+        "tamanho_sepala": 2.3,
+        "comprimento_petala": 1.3,
+        "tamanho_petala": 0.3,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 4.4,
+        "tamanho_sepala": 3.2,
+        "comprimento_petala": 1.3,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5,
+        "tamanho_sepala": 3.5,
+        "comprimento_petala": 1.6,
+        "tamanho_petala": 0.6,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5.1,
+        "tamanho_sepala": 3.8,
+        "comprimento_petala": 1.9,
+        "tamanho_petala": 0.4,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 4.8,
+        "tamanho_sepala": 3,
+        "comprimento_petala": 1.4,
+        "tamanho_petala": 0.3,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5.1,
+        "tamanho_sepala": 3.8,
+        "comprimento_petala": 1.6,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 4.6,
+        "tamanho_sepala": 3.2,
+        "comprimento_petala": 1.4,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5.3,
+        "tamanho_sepala": 3.7,
+        "comprimento_petala": 1.5,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 5,
+        "tamanho_sepala": 3.3,
+        "comprimento_petala": 1.4,
+        "tamanho_petala": 0.2,
+        "Flor": "Setosa"
+    },
+    {
+        "comprimento_sepala": 7,
+        "tamanho_sepala": 3.2,
+        "comprimento_petala": 4.7,
+        "tamanho_petala": 1.4,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 6.4,
+        "tamanho_sepala": 3.2,
+        "comprimento_petala": 4.5,
+        "tamanho_petala": 1.5,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 6.9,
+        "tamanho_sepala": 3.1,
+        "comprimento_petala": 4.9,
+        "tamanho_petala": 1.5,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 5.5,
+        "tamanho_sepala": 2.3,
+        "comprimento_petala": 4,
+        "tamanho_petala": 1.3,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 6.5,
+        "tamanho_sepala": 2.8,
+        "comprimento_petala": 4.6,
+        "tamanho_petala": 1.5,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 5.7,
+        "tamanho_sepala": 2.8,
+        "comprimento_petala": 4.5,
+        "tamanho_petala": 1.3,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 6.3,
+        "tamanho_sepala": 3.3,
+        "comprimento_petala": 4.7,
+        "tamanho_petala": 1.6,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 4.9,
+        "tamanho_sepala": 2.4,
+        "comprimento_petala": 3.3,
+        "tamanho_petala": 1,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 6.6,
+        "tamanho_sepala": 2.9,
+        "comprimento_petala": 4.6,
+        "tamanho_petala": 1.3,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 5.2,
+        "tamanho_sepala": 2.7,
+        "comprimento_petala": 3.9,
+        "tamanho_petala": 1.4,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 5,
+        "tamanho_sepala": 2,
+        "comprimento_petala": 3.5,
+        "tamanho_petala": 1,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 5.9,
+        "tamanho_sepala": 3,
+        "comprimento_petala": 4.2,
+        "tamanho_petala": 1.5,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 6,
+        "tamanho_sepala": 2.2,
+        "comprimento_petala": 4,
+        "tamanho_petala": 1,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 6.1,
+        "tamanho_sepala": 2.9,
+        "comprimento_petala": 4.7,
+        "tamanho_petala": 1.4,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 5.6,
+        "tamanho_sepala": 2.9,
+        "comprimento_petala": 3.6,
+        "tamanho_petala": 1.3,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 6.7,
+        "tamanho_sepala": 3.1,
+        "comprimento_petala": 4.4,
+        "tamanho_petala": 1.4,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 5.6,
+        "tamanho_sepala": 3,
+        "comprimento_petala": 4.5,
+        "tamanho_petala": 1.5,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 5.8,
+        "tamanho_sepala": 2.7,
+        "comprimento_petala": 4.1,
+        "tamanho_petala": 1,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 6.2,
+        "tamanho_sepala": 2.2,
+        "comprimento_petala": 4.5,
+        "tamanho_petala": 1.5,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 5.6,
+        "tamanho_sepala": 2.5,
+        "comprimento_petala": 3.9,
+        "tamanho_petala": 1.1,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 5.9,
+        "tamanho_sepala": 3.2,
+        "comprimento_petala": 4.8,
+        "tamanho_petala": 1.8,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 6.1,
+        "tamanho_sepala": 2.8,
+        "comprimento_petala": 4,
+        "tamanho_petala": 1.3,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 6.3,
+        "tamanho_sepala": 2.5,
+        "comprimento_petala": 4.9,
+        "tamanho_petala": 1.5,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 6.1,
+        "tamanho_sepala": 2.8,
+        "comprimento_petala": 4.7,
+        "tamanho_petala": 1.2,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 6.4,
+        "tamanho_sepala": 2.9,
+        "comprimento_petala": 4.3,
+        "tamanho_petala": 1.3,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 6.6,
+        "tamanho_sepala": 3,
+        "comprimento_petala": 4.4,
+        "tamanho_petala": 1.4,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 6.8,
+        "tamanho_sepala": 2.8,
+        "comprimento_petala": 4.8,
+        "tamanho_petala": 1.4,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 6.7,
+        "tamanho_sepala": 3,
+        "comprimento_petala": 5,
+        "tamanho_petala": 1.7,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 6,
+        "tamanho_sepala": 2.9,
+        "comprimento_petala": 4.5,
+        "tamanho_petala": 1.5,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 5.7,
+        "tamanho_sepala": 2.6,
+        "comprimento_petala": 3.5,
+        "tamanho_petala": 1,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 5.5,
+        "tamanho_sepala": 2.4,
+        "comprimento_petala": 3.8,
+        "tamanho_petala": 1.1,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 5.5,
+        "tamanho_sepala": 2.4,
+        "comprimento_petala": 3.7,
+        "tamanho_petala": 1,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 5.8,
+        "tamanho_sepala": 2.7,
+        "comprimento_petala": 3.9,
+        "tamanho_petala": 1.2,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 6,
+        "tamanho_sepala": 2.7,
+        "comprimento_petala": 5.1,
+        "tamanho_petala": 1.6,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 5.4,
+        "tamanho_sepala": 3,
+        "comprimento_petala": 4.5,
+        "tamanho_petala": 1.5,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 6,
+        "tamanho_sepala": 3.4,
+        "comprimento_petala": 4.5,
+        "tamanho_petala": 1.6,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 6.7,
+        "tamanho_sepala": 3.1,
+        "comprimento_petala": 4.7,
+        "tamanho_petala": 1.5,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 6.3,
+        "tamanho_sepala": 2.3,
+        "comprimento_petala": 4.4,
+        "tamanho_petala": 1.3,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 5.6,
+        "tamanho_sepala": 3,
+        "comprimento_petala": 4.1,
+        "tamanho_petala": 1.3,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 5.5,
+        "tamanho_sepala": 2.5,
+        "comprimento_petala": 4,
+        "tamanho_petala": 1.3,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 5.5,
+        "tamanho_sepala": 2.6,
+        "comprimento_petala": 4.4,
+        "tamanho_petala": 1.2,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 6.1,
+        "tamanho_sepala": 3,
+        "comprimento_petala": 4.6,
+        "tamanho_petala": 1.4,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 5.8,
+        "tamanho_sepala": 2.6,
+        "comprimento_petala": 4,
+        "tamanho_petala": 1.2,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 5,
+        "tamanho_sepala": 2.3,
+        "comprimento_petala": 3.3,
+        "tamanho_petala": 1,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 5.6,
+        "tamanho_sepala": 2.7,
+        "comprimento_petala": 4.2,
+        "tamanho_petala": 1.3,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 5.7,
+        "tamanho_sepala": 3,
+        "comprimento_petala": 4.2,
+        "tamanho_petala": 1.2,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 5.7,
+        "tamanho_sepala": 2.9,
+        "comprimento_petala": 4.2,
+        "tamanho_petala": 1.3,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 6.2,
+        "tamanho_sepala": 2.9,
+        "comprimento_petala": 4.3,
+        "tamanho_petala": 1.3,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 5.1,
+        "tamanho_sepala": 2.5,
+        "comprimento_petala": 3,
+        "tamanho_petala": 1.1,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 5.7,
+        "tamanho_sepala": 2.8,
+        "comprimento_petala": 4.1,
+        "tamanho_petala": 1.3,
+        "Flor": "Versicolor"
+    },
+    {
+        "comprimento_sepala": 6.3,
+        "tamanho_sepala": 3.3,
+        "comprimento_petala": 6,
+        "tamanho_petala": 2.5,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 5.8,
+        "tamanho_sepala": 2.7,
+        "comprimento_petala": 5.1,
+        "tamanho_petala": 1.9,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 7.1,
+        "tamanho_sepala": 3,
+        "comprimento_petala": 5.9,
+        "tamanho_petala": 2.1,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.3,
+        "tamanho_sepala": 2.9,
+        "comprimento_petala": 5.6,
+        "tamanho_petala": 1.8,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.5,
+        "tamanho_sepala": 3,
+        "comprimento_petala": 5.8,
+        "tamanho_petala": 2.2,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 7.6,
+        "tamanho_sepala": 3,
+        "comprimento_petala": 6.6,
+        "tamanho_petala": 2.1,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 4.9,
+        "tamanho_sepala": 2.5,
+        "comprimento_petala": 4.5,
+        "tamanho_petala": 1.7,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 7.3,
+        "tamanho_sepala": 2.9,
+        "comprimento_petala": 6.3,
+        "tamanho_petala": 1.8,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.7,
+        "tamanho_sepala": 2.5,
+        "comprimento_petala": 5.8,
+        "tamanho_petala": 1.8,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 7.2,
+        "tamanho_sepala": 3.6,
+        "comprimento_petala": 6.1,
+        "tamanho_petala": 2.5,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.5,
+        "tamanho_sepala": 3.2,
+        "comprimento_petala": 5.1,
+        "tamanho_petala": 2,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.4,
+        "tamanho_sepala": 2.7,
+        "comprimento_petala": 5.3,
+        "tamanho_petala": 1.9,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.8,
+        "tamanho_sepala": 3,
+        "comprimento_petala": 5.5,
+        "tamanho_petala": 2.1,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 5.7,
+        "tamanho_sepala": 2.5,
+        "comprimento_petala": 5,
+        "tamanho_petala": 2,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 5.8,
+        "tamanho_sepala": 2.8,
+        "comprimento_petala": 5.1,
+        "tamanho_petala": 2.4,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.4,
+        "tamanho_sepala": 3.2,
+        "comprimento_petala": 5.3,
+        "tamanho_petala": 2.3,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.5,
+        "tamanho_sepala": 3,
+        "comprimento_petala": 5.5,
+        "tamanho_petala": 1.8,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 7.7,
+        "tamanho_sepala": 3.8,
+        "comprimento_petala": 6.7,
+        "tamanho_petala": 2.2,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 7.7,
+        "tamanho_sepala": 2.6,
+        "comprimento_petala": 6.9,
+        "tamanho_petala": 2.3,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6,
+        "tamanho_sepala": 2.2,
+        "comprimento_petala": 5,
+        "tamanho_petala": 1.5,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.9,
+        "tamanho_sepala": 3.2,
+        "comprimento_petala": 5.7,
+        "tamanho_petala": 2.3,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 5.6,
+        "tamanho_sepala": 2.8,
+        "comprimento_petala": 4.9,
+        "tamanho_petala": 2,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 7.7,
+        "tamanho_sepala": 2.8,
+        "comprimento_petala": 6.7,
+        "tamanho_petala": 2,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.3,
+        "tamanho_sepala": 2.7,
+        "comprimento_petala": 4.9,
+        "tamanho_petala": 1.8,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.7,
+        "tamanho_sepala": 3.3,
+        "comprimento_petala": 5.7,
+        "tamanho_petala": 2.1,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 7.2,
+        "tamanho_sepala": 3.2,
+        "comprimento_petala": 6,
+        "tamanho_petala": 1.8,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.2,
+        "tamanho_sepala": 2.8,
+        "comprimento_petala": 4.8,
+        "tamanho_petala": 1.8,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.1,
+        "tamanho_sepala": 3,
+        "comprimento_petala": 4.9,
+        "tamanho_petala": 1.8,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.4,
+        "tamanho_sepala": 2.8,
+        "comprimento_petala": 5.6,
+        "tamanho_petala": 2.1,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 7.2,
+        "tamanho_sepala": 3,
+        "comprimento_petala": 5.8,
+        "tamanho_petala": 1.6,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 7.4,
+        "tamanho_sepala": 2.8,
+        "comprimento_petala": 6.1,
+        "tamanho_petala": 1.9,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 7.9,
+        "tamanho_sepala": 3.8,
+        "comprimento_petala": 6.4,
+        "tamanho_petala": 2,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.4,
+        "tamanho_sepala": 2.8,
+        "comprimento_petala": 5.6,
+        "tamanho_petala": 2.2,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.3,
+        "tamanho_sepala": 2.8,
+        "comprimento_petala": 5.1,
+        "tamanho_petala": 1.5,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.1,
+        "tamanho_sepala": 2.6,
+        "comprimento_petala": 5.6,
+        "tamanho_petala": 1.4,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 7.7,
+        "tamanho_sepala": 3,
+        "comprimento_petala": 6.1,
+        "tamanho_petala": 2.3,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.3,
+        "tamanho_sepala": 3.4,
+        "comprimento_petala": 5.6,
+        "tamanho_petala": 2.4,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.4,
+        "tamanho_sepala": 3.1,
+        "comprimento_petala": 5.5,
+        "tamanho_petala": 1.8,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6,
+        "tamanho_sepala": 3,
+        "comprimento_petala": 4.8,
+        "tamanho_petala": 1.8,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.9,
+        "tamanho_sepala": 3.1,
+        "comprimento_petala": 5.4,
+        "tamanho_petala": 2.1,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.7,
+        "tamanho_sepala": 3.1,
+        "comprimento_petala": 5.6,
+        "tamanho_petala": 2.4,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.9,
+        "tamanho_sepala": 3.1,
+        "comprimento_petala": 5.1,
+        "tamanho_petala": 2.3,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 5.8,
+        "tamanho_sepala": 2.7,
+        "comprimento_petala": 5.1,
+        "tamanho_petala": 1.9,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.8,
+        "tamanho_sepala": 3.2,
+        "comprimento_petala": 5.9,
+        "tamanho_petala": 2.3,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.7,
+        "tamanho_sepala": 3.3,
+        "comprimento_petala": 5.7,
+        "tamanho_petala": 2.5,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.7,
+        "tamanho_sepala": 3,
+        "comprimento_petala": 5.2,
+        "tamanho_petala": 2.3,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.3,
+        "tamanho_sepala": 2.5,
+        "comprimento_petala": 5,
+        "tamanho_petala": 1.9,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.5,
+        "tamanho_sepala": 3,
+        "comprimento_petala": 5.2,
+        "tamanho_petala": 2,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 6.2,
+        "tamanho_sepala": 3.4,
+        "comprimento_petala": 5.4,
+        "tamanho_petala": 2.3,
+        "Flor": "Virginica"
+    },
+    {
+        "comprimento_sepala": 5.9,
+        "tamanho_sepala": 3,
+        "comprimento_petala": 5.1,
+        "tamanho_petala": 1.8,
+        "Flor": "Virginica"
+    }
+]

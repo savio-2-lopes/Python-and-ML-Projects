@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="mt-5"></div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="mt-4 container py-5">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <h2 class="h2 text-center alert alert-secondary">Realizar previsão de diabetes</h2>
+          <form action="{{ url_for('predicao')}}" method="POST" class="text-muted">
+            <div class="mb-3">
+              <label for="input_pregnancies" class="mt-4 form-label">Número da gravidez</label>
+              <input type="number" required class="form-control" id="input_pregnancies" name="pregnancies" min="0"
+                max="20" placeholder="eg. 1">
+            </div>
+
+            <div class="mb-3">
+              <label for="input_glicose" class="form-label">Glicose (mg/dL)</label>
+              <input type="number" required class="form-control" id="input_glicose" name="glicose" min="50" max="200"
+                placeholder="eg. 90">
+            </div>
+
+            <div class="mb-3">
+              <label for="input_blood_pressure" class="form-label">Pressão arterial (mmHg)</label>
+              <input type="number" required class="form-control" id="input_blood_pressure" name="bloodpressure" min="50"
+                max="200" placeholder="eg. 80">
+            </div>
+
+            <div class="mb-3">
+              <label for="input_skin_thickness" class="form-label">Espessura da Pele (mm)</label>
+              <input type="number" required class="form-control" id="input_skin_thickness" name="skinthickness" min="10"
+                max="50" placeholder="eg. 20">
+            </div>
+
+            <div class="mb-3">
+              <label for="input_insulin_level" class="form-label">Nível de insulina (IU/mL)</label>
+              <input type="number" required class="form-control" id="input_insulin_level" name="insulin" min="20"
+                max="900" placeholder="eg. 100">
+            </div>
+
+            <div class="mb-3">
+              <label for="input_body_mass_index" class="form-label">Índice de massa corporal (kg/m²)</label>
+              <input type="number" required class="form-control" id="input_body_mass_index" name="bmi" min="20" max="50"
+                step="0.1" placeholder="eg. 29.6">
+            </div>
+
+            <div class="mb-3">
+              <label for="input_diabetes_pedigree_function" class="form-label">Função de Linhagem de Diabetes</label>
+              <input type="number" required class="form-control" id="input_diabetes_pedigree_function"
+                name="diabetesfunction" min="0.1" max="3" step="0.001" placeholder="eg. 0.52">
+            </div>
+
+            <div class="mb-3">
+              <label for="input_age" class="form-label">Idade</label>
+              <input type="number" required class="form-control" id="input_age" name="age" min="18" max="100"
+                placeholder="eg. 25">
+            </div>
+
+            <div class="mt-5 d-grid gap-2">
+              <button type="submit" class="btn btn-secondary">
+                Realizar predição
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock body %}

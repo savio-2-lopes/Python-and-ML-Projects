@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="mt-5"></div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="mt-4 container py-5">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <h2 class="h2 text-center alert alert-secondary">Realizar previsão do preço do carro</h2>
+          <form action="{{ url_for('predicao')}}" method="POST" class="text-muted">
+            <div class="mb-3">
+              <label for="yearCar" class="mt-4 form-label">Ano</label>
+              <input type="number" required class="form-control" id="yearCar" name="year" max="50">
+            </div>
+
+            <div class="mb-3">
+              <label for="presentPriceCar" class="form-label">Preço atual do carro</label>
+              <input type="number" required class="form-control" id="presentPriceCar" name="present_price" step="any"
+                placeholder="R$">
+            </div>
+
+            <div class="mb-3">
+              <label for="kmsDriven" class="form-label">Quantos quilômetros dirigidos?</label>
+              <input type="number" required class="form-control" id="kmsDriven" name="kms_driven">
+            </div>
+
+            <div class="mb-3">
+              <label for="ownerCar" class="form-label">Quantos proprietários possuíam o carro anteriormente
+                (0 ou 1 ou 3)?</label>
+              <input type="number" required class="form-control" id="ownerCar" name="owner">
+            </div>
+
+            <div class="mb-3">
+              <label for="fuelTypePetrol" class="form-label">Qual é o tipo de combustível?</label>
+              <select class="form-select" required id="fuelTypePetrol" name="fuel_type_petrol">
+                <option value="Petrol">Gasolina</option>
+                <option value="Diesel">Diesel</option>
+                <option value="Diesel">CNG</option>
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <label for="sellerTypeIndividual" class="form-label">Você é um revendedor ou indivíduo?</label>
+              <select class="form-select" required id="sellerTypeIndividual" name="seller_type_individual">
+                <option value="Dealer">Distribuidora</option>
+                <option value="Individual">Individual</option>
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <label for="transmissionMannual" class="form-label">Tipo de transmissão</label>
+              <select class="form-select" required id="transmissionMannual" name="transmission_mannual">
+                <option value="Mannual">Carro manual</option>
+                <option value="Automatic">Carro automático</option>
+              </select>
+            </div>
+
+            <div class="mt-5 d-grid gap-2">
+              <button type="submit" class="btn btn-secondary">
+                Calcule o preço de venda
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock body %}
