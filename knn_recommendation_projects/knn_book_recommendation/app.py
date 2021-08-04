@@ -7,8 +7,8 @@ from fuzzywuzzy import fuzz
 
 class Recommender:
   def train(self):
-        books = pd.read_csv("BX_Books.csv", sep=";", encoding="latin-1")
-        ratings = pd.read_csv("BX-Book-Ratings.csv", sep=";", encoding="latin-1")
+        books = pd.read_csv("dataset/BX_Books.csv", sep=";", encoding="latin-1")
+        ratings = pd.read_csv("dataset/BX-Book-Ratings.csv", sep=";", encoding="latin-1")
 
         user_rating_count = pd.DataFrame(ratings.groupby('User-ID').size(), columns=['count'])
         book_rating_count = pd.DataFrame(ratings.groupby('ISBN').size(), columns=['count'])
