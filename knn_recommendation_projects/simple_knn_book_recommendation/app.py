@@ -69,7 +69,7 @@ print(combine_book_rating.head())
 # uma nova coluna para contagem total de classificação.
 
 combine_book_rating=combine_book_rating.dropna(axis=0, subset=['bookTitle'])
-book_ratingCount=(combine_book_rating, groupby(by=['bookTitle'])['bookRating'], count(), reset_index(), rename(columns={'bookRating':'totalRatingCount'})[['bookTitle', 'totalRatingCount']])
+book_ratingCount=(combine_book_rating.groupby(by=['bookTitle'])['bookRating'].count().reset_index().rename(columns={'bookRating': 'totalRatingCount'})[['bookTitle', 'totalRatingCount']])
 print(book_ratingCount.head())
 
 # Combinamos os dados de classificação 
