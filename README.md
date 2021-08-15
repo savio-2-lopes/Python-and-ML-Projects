@@ -31,3 +31,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 ## 📚 Datasets
 
+Para os sistemas de recomendação, foram utilizados duas bases de dados:
+
+- [Book-Crossing Dataset](http://www2.informatik.uni-freiburg.de/~cziegler/BX/)
+- [MovieLens Dataset](https://grouplens.org/datasets/movielens/)
