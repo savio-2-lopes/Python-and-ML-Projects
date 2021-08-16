@@ -16,35 +16,6 @@ users.columns = ['userID', 'Location', 'Age']
 ratings = pd.read_csv('BX-Book-Ratings.csv', sep=';', error_bad_lines=False, encoding="latin-1")
 ratings.columns = ['userID', 'ISBN', 'bookRating']
 
-""" Dados de classificação """
-
-print(ratings.shape)
-print(list(ratings.columns))
-
-""" Dados de livros """
-
-print(books.shape)
-print(list(books.columns))
-
-""" Dados  dos usuário """
-
-# Este conjunto de dados fornece informações
-# demográficas ao usuário. Inclui 3 campos: 
-# Identificação do usuário, localização e idade
-
-print(users.shape)
-print(list(users.columns))
-
-""" Recomendações baseadas em contagem de classificação """
-
-rating_count = pd.DataFrame(ratings.groupby('ISBN')['bookRating'].count())
-rating_count.sort_values('bookRating', ascending=False).head()
-print('\nClassificação',rating_count.sort_values('bookRating', ascending=False).head())
-
-most_rated_books = pd.DataFrame(['0971880107','0316666343', '0385504209', '0060928336', '0312195516'], index=np.arange(5), columns = ['ISBN'])
-most_rated_books_summary = pd.merge(most_rated_books, books, on='ISBN')
-print('\n\nClassificação dos livros\n', most_rated_books_summary, '\n\n')
-
 """ Filtragem colaborativa usando KNN """
 
 # KNN é um algoritmo de aprendizado de máquinas para 
@@ -58,7 +29,7 @@ print('\n\nClassificação dos livros\n', most_rated_books_summary, '\n\n')
 # do usuário mais semelhantes. 
 # neste caso, vizinhos mais próximos do item id 5=[7, 4, 8, ...].
 # Agora, vamos implementar KNN em nosso sistema de recomendação de livros
-# A partiri do conjunto de dados original, estaremos apenas olhando para os 
+# A partir do conjunto de dados original, estaremos apenas olhando para os 
 # livros populares. Para descobrir quais livros são populares, combinamos dados de
 # livros com dados de classificação.
 
