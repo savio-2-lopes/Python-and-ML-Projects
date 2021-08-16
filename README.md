@@ -50,12 +50,6 @@ $ venv\Scripts\activate
 # Após isso, instale as depedências
 $ pip install -r requirements.txt
 
-# Rode o comando
-$ yarn start
-
-# A aplicação estará rodando na porta
-$ http://localhost:3000/
-
 ```
 
 <br>
