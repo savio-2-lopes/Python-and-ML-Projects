@@ -4,7 +4,7 @@
 
 <br>
 
-## 🎨 Layout
+## 🎨 Layout dos sistemas de predição
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="predictionProjets" title="#predictionProjets" src="./assets/1.gif" width="800px">
@@ -26,6 +26,37 @@
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Python](https://www.python.org/).
+
+<br>
+
+#### 🧭 Rodando a aplicação
+
+```bash
+
+# Clone esse repositório
+$ git clone https://github.com/savio-2-lopes/Prediction-ML-Projects.git
+
+# Acesse a pasta 
+$ cd Prediction-ML-Projects
+
+# Caso não esteja em ambiente virtual, certifique-se de criá-lo dentro da pasta (em Linux/macOS) e ativá-lo
+$ python3 -m venv venv
+$ . venv/bin/activate
+
+# Para criar o ambiente virtual em Windows e ativá-lo, utilize o comando abaixo
+$ py -3 -m venv venv
+$ venv\Scripts\activate
+
+# Após isso, instale as depedências
+$ pip install -r requirements.txt
+
+# Rode o comando
+$ yarn start
+
+# A aplicação estará rodando na porta
+$ http://localhost:3000/
+
+```
 
 <br>
 
