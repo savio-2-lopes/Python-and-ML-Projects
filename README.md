@@ -2,6 +2,8 @@
 
 :speech_balloon: Repositório contendo projetos simples de Machine Learning, utilizando [Python](https://www.python.org/) e [Flask](https://flask.palletsprojects.com/en/2.0.x/). 
 
+<br>
+
 :memo: O repositório é divido em duas categorias 
 
 - [x] ML Prediction Projects
