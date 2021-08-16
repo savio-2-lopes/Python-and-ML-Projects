@@ -124,7 +124,6 @@ us_canada_user_rating_matrix = csr_matrix(us_canada_user_rating_pivot.values)
 
 model_knn = NearestNeighbors(metric = 'cosine', algorithm = 'brute')
 model_knn.fit(us_canada_user_rating_matrix)
-print(model_knn.fit(us_canada_user_rating_matrix))
 
 """ Teste nosso modelo e faça algumas recomendações """
 
