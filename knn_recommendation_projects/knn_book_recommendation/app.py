@@ -39,7 +39,11 @@ print(list(users.columns))
 
 rating_count = pd.DataFrame(ratings.groupby('ISBN')['bookRating'].count())
 rating_count.sort_values('bookRating', ascending=False).head()
-print(rating_count.sort_values('bookRating', ascending=False).head())
+print('\nClassificação',rating_count.sort_values('bookRating', ascending=False).head())
+
+most_rated_books = pd.DataFrame(['0971880107','0316666343', '0385504209', '0060928336', '0312195516'], index=np.arange(5), columns = ['ISBN'])
+most_rated_books_summary = pd.merge(most_rated_books, books, on='ISBN')
+print('\n\nClassificação dos livros\n', most_rated_books_summary, '\n\n')
 
 """ Filtragem colaborativa usando KNN """
 
@@ -139,8 +143,7 @@ distances, indices = model_knn.kneighbors(us_canada_user_rating_pivot.iloc[query
 
 for i in range(0, len(distances.flatten())):
   if i == 0:
-    print('Recomendação para {0}: \n'.format(us_canada_user_rating_pivot.index[query_index]))
+    print('Outros livros  {0}: \n'.format(us_canada_user_rating_pivot.index[query_index]))
 
   else:
     print('{0}: {1}, por uma distância de {2}: '.format(i, us_canada_user_rating_pivot.index[indices.flatten()[i]], distances.flatten()[i]))
-
