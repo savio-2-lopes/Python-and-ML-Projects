@@ -129,7 +129,6 @@ model_knn.fit(us_canada_user_rating_matrix)
 
 """ Teste nosso modelo e faça algumas recomendações """
 
-
 """
 Nesta etapa, o algoritmo kNN mede a distância para determinar a "proximidade"
 das instâncias. Em seguida, classifica uma instância ao encontrar seus vizinhos 
