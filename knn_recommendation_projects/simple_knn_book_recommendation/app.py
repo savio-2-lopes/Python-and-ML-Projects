@@ -1,14 +1,16 @@
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 from sklearn.neighbors import NearestNeighbors
 
+# Dados do livro
 books = pd.read_csv('BX-Books.csv', sep=';', error_bad_lines=False, encoding="latin-1")
 books.columns = ['ISBN', 'bookTitle', 'bookAuthor', 'yearOfPublication', 'publisher', 'imageUrlS', 'imageUrlM', 'imageUrlL']
 
+# Dados do usuário
 users = pd.read_csv('BX-Users.csv', sep=';', error_bad_lines=False, encoding="latin-1")
 users.columns = ['userID', 'Location', 'Age']
 
+# Dados do usuário
 ratings = pd.read_csv('BX-Book-Ratings.csv', sep=';', error_bad_lines=False, encoding="latin-1")
 ratings.columns = ['userID', 'ISBN', 'bookRating']
 
@@ -36,12 +38,6 @@ print(list(users.columns))
 rating_count = pd.DataFrame(ratings.groupby('ISBN')['bookRating'].count())
 rating_count.sort_values('bookRating', ascending=False).head()
 print(rating_count.sort_values('bookRating', ascending=False).head())
-
-# O livro com o ISBN recebeu a maioria das contagens de classificação
-
-most_rated_books = pd.DataFrame(['0330299891', '0375404120', '0586045007', '9022906116', '9032803328'], index=np.arange(5), columns = ['ISBN'])
-most_rated_books_summary=pd.merge(most_rated_books, books, on="ISBN")
-print('\n', most_rated_books_summary)
 
 """ Filtragem colaborativa usando KNN """
 
