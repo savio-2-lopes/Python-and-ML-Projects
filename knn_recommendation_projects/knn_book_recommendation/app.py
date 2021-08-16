@@ -51,6 +51,7 @@ book_ratingCount = (combine_book_rating.
   rename(columns = {'bookRating': 'totalRatingCount'})
   [['bookTitle', 'totalRatingCount']]
 )
+
 print('\nContagem total de classificação\n', book_ratingCount.head())
 
 """
