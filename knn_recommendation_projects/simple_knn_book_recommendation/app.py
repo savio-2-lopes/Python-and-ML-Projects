@@ -57,15 +57,15 @@ print(rating_count.sort_values('bookRating', ascending=False).head())
 # livros com dados de classificação.
 
 combine_book_rating = pd.merge(ratings, books, on='ISBN')
-columns=['yearOfPublication', 'publisher', 'bookAuthor', 'imageUrlS', 'imageUrlM', 'imageUrlL']
+columns = ['yearOfPublication', 'publisher', 'bookAuthor', 'imageUrlS', 'imageUrlM', 'imageUrlL']
 combine_book_rating = combine_book_rating.drop(columns, axis=1)
 print(combine_book_rating.head())
 
 # Em seguida, agrupamos por titulo de livros e criamos
 # uma nova coluna para contagem total de classificação.
 
-combine_book_rating=combine_book_rating.dropna(axis=0, subset=['bookTitle'])
-book_ratingCount=(combine_book_rating.groupby(by=['bookTitle'])['bookRating'].count().reset_index().rename(columns={'bookRating': 'totalRatingCount'})[['bookTitle', 'totalRatingCount']])
+combine_book_rating = combine_book_rating.dropna(axis = 0, subset = ['bookTitle'])
+book_ratingCount = (combine_book_rating.groupby(by = ['bookTitle'])['bookRating'].count().reset_index().rename(columns = {'bookRating': 'totalRatingCount'})[['bookTitle', 'totalRatingCount']])
 print(book_ratingCount.head())
 
 # Combinamos os dados de classificação 
