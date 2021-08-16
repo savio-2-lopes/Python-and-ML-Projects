@@ -142,4 +142,5 @@ for i in range(0, len(distances.flatten())):
     print('Recomendação para {0}: \n'.format(us_canada_user_rating_pivot.index[query_index]))
 
   else:
-    print('{0}: {1}, por uma distância de {2}:'.format(i, us_canada_user_rating_pibot.index[indices.flatten()[i]], distances.flatten()[i]))
+    print('{0}: {1}, por uma distância de {2}: '.format(i, us_canada_user_rating_pivot.index[indices.flatten()[i]], distances.flatten()[i]))
+
