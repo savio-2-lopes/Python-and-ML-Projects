@@ -135,11 +135,11 @@ model_knn.fit(us_canada_user_rating_matrix)
 # próximos, e escolher a classe mais popular entre os vizinhos
 
 query_index = np.random.choice(us_canada_user_rating_pivot.shape[0])
-distances, indices = model_knn.kneighbors(us_canada_user_rating_pivot.iloc[query_index, :].reshape(1, -1), n_neighbors = 6)
+distances, indices = model_knn.kneighbors(us_canada_user_rating_pivot.iloc[query_index, :].values.reshape(1, -1), n_neighbors=6)
 
 for i in range(0, len(distances.flatten())):
   if i == 0:
-    print('Recomendação para {}: \n'.format(us_canada_user_pivot.index[query_index]))
+    print('Recomendação para {0}: \n'.format(us_canada_user_pivot.index[query_index]))
 
   else:
     print('{0}: {1}, por uma distância de {2}:'.format(i, us_canada_user_rating_pibot.index[indices.flatten()[i]], distances.flatten()[i]))
