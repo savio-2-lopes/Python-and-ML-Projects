@@ -4,7 +4,9 @@
 
 <br>
 
-:memo: O repositório é divido em duas categorias 
+📌 O repositório é divido em duas categorias 
+
+<br>
 
 - [x] ML Prediction Projects - Para projetos voltados predição.
 - [x] kNN Recommendation Projects - Projetos voltados a sistemas de recomendação.
