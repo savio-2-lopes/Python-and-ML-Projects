@@ -47,12 +47,11 @@ print(df_ratings_cnt)
 
 print(df_ratings.head())
 
-# get rating frequency
 df_movies_cnt = pd.DataFrame(df_ratings.groupby('movieId').size(), columns=['count'])
 print(df_movies_cnt.head())
 
 df_movies_cnt['count'].quantile(np.arange(1, 0.6, -0.05))
-# filter data
+# Filtrando dados
 popularity_thres = 50
 popular_movies = list(set(df_movies_cnt.query('count >= @popularity_thres').index))
 df_ratings_drop_movies = df_ratings[df_ratings.movieId.isin(popular_movies)]
