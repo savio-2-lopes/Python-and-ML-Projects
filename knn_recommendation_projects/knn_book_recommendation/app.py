@@ -143,7 +143,7 @@ distances, indices = model_knn.kneighbors(us_canada_user_rating_pivot.iloc[query
 
 for i in range(0, len(distances.flatten())):
   if i == 0:
-    print('Outros livros  {0}: \n'.format(us_canada_user_rating_pivot.index[query_index]))
+    print('Sua recomendação é {0}: \n'.format(us_canada_user_rating_pivot.index[query_index]))
 
   else:
     print('{0}: {1}, por uma distância de {2}: '.format(i, us_canada_user_rating_pivot.index[indices.flatten()[i]], distances.flatten()[i]))
