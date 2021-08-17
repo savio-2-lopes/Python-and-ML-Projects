@@ -9,7 +9,7 @@
 <br>
 
 - [x] ML Prediction Projects: Projetos voltados predição.
-- [x] kNN Recommendation Projects: Projetos voltados a sistemas de recomendação.
+- [x] kNN Recommendation Projects: Projetos voltados a sistemas de recomendação com base no algoritmo kNN (K-nearest neighbors).
 
 <br>
 
