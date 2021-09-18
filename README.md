@@ -6,8 +6,6 @@
 
 ##  🛠️ O repositório é divido em duas categorias 
 
-<br>
-
 ### 📌 ml_prediction_projects 
 Projetos voltados predição.
 
