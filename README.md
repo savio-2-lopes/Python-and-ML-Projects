@@ -4,7 +4,7 @@
 
 <br>
 
-##  🛠️ Divisão 
+##  🛠️ Categorias 
 
 :memo: O repositório é divido em duas categorias 
 
