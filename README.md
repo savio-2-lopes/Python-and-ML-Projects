@@ -74,6 +74,9 @@ $ venv\Scripts\activate
 # Após isso, instale as depedências
 $ pip install -r requirements.txt
 
+# Após isso inicie os arquivos dentro de sua respectiva pastas
+$ python3 app.py
+
 ```
 
 <br>
