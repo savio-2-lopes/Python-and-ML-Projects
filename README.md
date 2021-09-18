@@ -10,13 +10,13 @@
 
 <br>
 
-### 📌 ml_prediction_projects 
+### :computer: ML Prediction Projects 
 Projetos voltados predição.
 
-### 📌 knn_recommendation_projects 
+### :computer: kNN Recommendation Projects 
 Projetos voltados a sistemas de recomendação com base no algoritmo kNN (K-nearest neighbors).
 
-### 📌 ml_interactive_maps
+### :computer: ML Interactive Maps
 Projetos voltados a mapas interativos.
 
 <br>
