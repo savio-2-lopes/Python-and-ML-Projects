@@ -8,8 +8,9 @@
 
 <br>
 
-- [x] ML Prediction Projects: Projetos voltados predição.
-- [x] kNN Recommendation Projects: Projetos voltados a sistemas de recomendação com base no algoritmo kNN (K-nearest neighbors).
+- [x] ml_prediction_projects: Projetos voltados predição.
+- [x] knn_recommendation_projects: Projetos voltados a sistemas de recomendação com base no algoritmo kNN (K-nearest neighbors).
+- [x] ml_interactive_maps: Projetos voltados a mapas interativos.
 
 <br>
 
