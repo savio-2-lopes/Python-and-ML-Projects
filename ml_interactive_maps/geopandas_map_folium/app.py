@@ -2,7 +2,7 @@ import pandas as pd
 import geopandas
 import folium
 
-urtl = "https://en.wikipedia.org/wiki/List_of_countries_by_meat_consumption"
+url = "https://en.wikipedia.org/wiki/List_of_countries_by_meat_consumption"
 tables = pd.read_html(url)
 table = tables[0]
 
@@ -17,6 +17,7 @@ table = table.dropna(subset=['kg/person (2002)[9][note 1]'])
 print(table)
 
 my_map = folium.Map()
+
 folium.Choropleth(
     geo_data=table,
     name="choropleth",
