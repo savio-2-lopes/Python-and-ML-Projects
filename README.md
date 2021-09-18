@@ -6,7 +6,7 @@
 
 ##  🛠️ Categorias 
 
-💬 O repositório é divido em duas categorias 
+💬 O repositório é divido em três categorias 
 
 <br>
 
