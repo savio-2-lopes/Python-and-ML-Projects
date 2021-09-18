@@ -4,13 +4,24 @@
 
 <br>
 
-📌 O repositório é divido em duas categorias 
+## 🛠️ Categorias
+💬 O repositório é divido em três categorias
 
 <br>
 
-- [x] ml_prediction_projects: Projetos voltados predição.
-- [x] knn_recommendation_projects: Projetos voltados a sistemas de recomendação com base no algoritmo kNN (K-nearest neighbors).
-- [x] ml_interactive_maps: Projetos voltados a mapas interativos.
+💻 ML Prediction Projects
+Projetos voltados predição.
+
+<br>
+
+💻 kNN Recommendation Projects
+Projetos voltados a sistemas de recomendação com base no algoritmo kNN (K-nearest neighbors).
+
+<br>
+
+💻 ML Interactive Maps
+Projetos voltados a mapas interativos.
+
 
 <br>
 
