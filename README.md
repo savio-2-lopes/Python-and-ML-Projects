@@ -10,16 +10,19 @@
 <br>
 
 💻 ML Prediction Projects
+
 Projetos voltados predição.
 
 <br>
 
 💻 kNN Recommendation Projects
+
 Projetos voltados a sistemas de recomendação com base no algoritmo kNN (K-nearest neighbors).
 
 <br>
 
 💻 ML Interactive Maps
+
 Projetos voltados a mapas interativos.
 
 
