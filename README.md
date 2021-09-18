@@ -4,7 +4,9 @@
 
 <br>
 
-##  🛠️ O repositório é divido em duas categorias 
+##  🛠️ Divisão 
+
+:memo: O repositório é divido em duas categorias 
 
 ### 📌 ml_prediction_projects 
 Projetos voltados predição.
