@@ -3,7 +3,7 @@
 Simples clone funcional do mecanismo de busca do Google em Django, que utiliza o pacote Beautiful Soup para extrair os dados com base no url do mecanismo de busca Ask.com.
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="djangoProject" title="#djangoProject" src=".github/1.gif" width="900px">
+  <img alt="djangoProject" title="#djangoProject" src=".github/1.gif" width="1000px">
 </p>
 
 <br>
