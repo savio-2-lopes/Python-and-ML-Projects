@@ -1,0 +1,64 @@
+{% extends "base.html" %} {% block title %} Home {% endblock %} {% block main %}
+
+<!-- Main -->
+<header class="header">
+  <span class="items-menu"
+    ><a href="https://www.gmail.com" alt="gmail">Gmail</a>
+  </span>
+  <span class="items-menu"> <a href="#" alt="imagens">Imagens</a></span>
+  <span class="items-menu">
+    <span class="menu" style="cursor: pointer">
+      <i style="vertical-align: middle" class="material-icons" alt="apps"
+        >apps</i
+      >
+    </span>
+  </span>
+
+  <span class="items-menu">
+    <img
+      class="profile-image"
+      draggable="false"
+      src="https://avatars.githubusercontent.com/u/60948849?v=4"
+    />
+  </span>
+</header>
+
+<!-- Google Images and Button -->
+
+<main>
+  <form action="search" method="POST">
+    {% csrf_token %}
+    <div class="container" style="text-align: center">
+      <img
+        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+      />
+
+      <!-- Search Box -->
+
+      <section class="search">
+        <input
+          type="text"
+          class="input"
+          name="search"
+          autofocus
+          x-webkit-speech
+        />
+        <img
+          class="voice-search-icon"
+          draggable="false"
+          alt="mic icon"
+          src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png"
+        />
+      </section>
+
+      <!-- buttons -->
+
+      <section class="btn-section">
+        <button type="submit" class="btn-search-google">Pesquisa Google</button>
+        <button class="btn-search-google">Estou com sorte</button>
+      </section>
+    </div>
+  </form>
+</main>
+
+{% endblock %}

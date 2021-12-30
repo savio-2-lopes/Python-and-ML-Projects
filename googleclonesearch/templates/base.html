@@ -1,0 +1,402 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Google Search Clone | {% block title %}{% endblock %}</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="{% static 'css/home.css' %}" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_google-256.png"
+      sizes="16x16"
+      type="image/png"
+    />
+
+    <style>
+      /* Corpo */
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: auto;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        min-height: 100%;
+        position: relative;
+      }
+
+      div.top-bar {
+        display: flex;
+        height: 64px;
+        width: 100%;
+        align-items: flex-end;
+        position: fixed;
+        background-color: white;
+      }
+
+      .google-image-icon .search-bar-image {
+        height: 30px;
+        padding: 0px 28px 10px 30px;
+        cursor: pointer;
+      }
+
+      .search-bar .search-bar-mic-button {
+        height: 45px;
+        width: 35px;
+        margin-left: auto;
+        background-color: white;
+      }
+
+      .search-bar .search-bar-mic-button img {
+        height: 25px;
+      }
+
+      .search-bar .search-bar-button {
+        height: 45px;
+        width: 55px;
+        position: relative;
+        margin-right: -2px;
+        background-color: white;
+      }
+
+      .search-bar .search-bar-button svg {
+        height: 25px;
+        width: 35px;
+        position: relative;
+        left: -3px;
+      }
+
+      .search-bar .search-bar-button svg path {
+        fill: #4285f4;
+      }
+
+      div.search-bar {
+        width: 625px;
+        height: 45px;
+        border-radius: 100px;
+        border-color: lightgray;
+        border-style: solid;
+        border-width: 1px;
+        font-size: 16px;
+        position: relative;
+        bottom: 5px;
+        overflow: hidden;
+        display: flex;
+        z-index: 100;
+      }
+
+      div.search-bar:hover {
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      div.search-bar > input {
+        height: 45px;
+        border-style: none;
+        font-size: 16px;
+        line-height: 45px;
+        padding-left: 20px;
+        flex: 1;
+      }
+
+      div.search-bar > input:focus {
+        outline: none;
+      }
+
+      div.search-bar button {
+        border: none;
+        cursor: pointer;
+      }
+
+      div.search-bar button:focus {
+        outline: none;
+      }
+
+      .menu-option-list-item .menu-option-active::after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background-color: #4285f4;
+        left: 5px;
+        bottom: 0px;
+      }
+
+      .menu-option-list-item .menu-option-list-others {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        margin: 0px;
+        margin-left: 100px;
+      }
+
+      .menu-option-list-item .menu-option-list-others li {
+        padding: 0px 10px 15px 20px;
+      }
+
+      section.search-result-area {
+        margin-left: 150px;
+        font-family: "Arial";
+      }
+
+      .search-result-area .search-result {
+        margin-left: 8px;
+      }
+
+      .search-result-area .search-result h2 {
+        font-size: 19px;
+        line-height: 18px;
+        font-weight: normal;
+        color: rgb(29, 1, 189);
+        margin-bottom: 0px;
+        margin-top: 25px;
+      }
+
+      .search-result-area .search-result a {
+        font-size: 14px;
+        line-height: 14px;
+        color: green;
+        margin-bottom: 0px;
+      }
+
+      .search-result-area .search-result button {
+        font-size: 10px;
+        line-height: 14px;
+        color: green;
+        margin-bottom: 0px;
+        padding: 0px;
+        border-width: 0px;
+        background-color: white;
+      }
+
+      div.icon-box {
+        width: 25px;
+        height: 25px;
+        opacity: 0.6;
+        background-size: 26px;
+        position: absolute;
+        right: 130px;
+        bottom: 14px;
+      }
+
+      div.icon-bell {
+        width: 20px;
+        height: 20px;
+        background-color: rgb(105, 105, 105);
+        background-size: 12px;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        border-radius: 30px;
+        position: absolute;
+        right: 90px;
+        bottom: 18px;
+      }
+
+      img.profile-image-google {
+        border-radius: 50px;
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        right: 40px;
+        bottom: 12px;
+      }
+
+      div.bar-option {
+        width: 100%;
+        height: 50px;
+        border-width: 0px;
+        border-bottom: 1px;
+        border-color: lightgray;
+        border-style: solid;
+        display: flex;
+        align-items: flex-end;
+        font-family: "Arial";
+        font-size: 13px;
+        color: rgb(112, 112, 112);
+        padding-top: 64px;
+      }
+
+      .bar-option .menu-option-list-item {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        margin: 0px;
+        margin-left: 150px;
+      }
+
+      .bar-option .menu-option-list-item li {
+        padding: 0px 10px 15px 20px;
+      }
+
+      .menu-option-list-item .menu-option-active {
+        color: #4285f4;
+        font-weight: bold;
+        position: relative;
+        z-index: -1;
+      }
+
+      .search-result-area .search-result p {
+        width: 625px;
+        font-size: 13px;
+        margin-top: 0px;
+        color: rgb(82, 82, 82);
+      }
+
+      footer.footer {
+        background-color: rgb(238, 238, 238);
+        position: relative;
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+        font-size: 13px;
+        font-family: "arial";
+        color: rgb(85, 85, 85);
+      }
+
+      .footer .footer-menu {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin-top: 0px;
+        margin-left: 135px;
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+      }
+
+      .footer .footer-menu li {
+        padding-right: 30px;
+      }
+
+      .footer .footer-lacal-data {
+        display: flex;
+        direction: row;
+        margin-left: 175px;
+        position: relative;
+        top: -5px;
+      }
+
+      .footer .footer-lacal-data p:nth-of-type(1) {
+        font-weight: bold;
+      }
+
+      .header {
+        font-size: 13px;
+        text-align: right;
+        padding-top: 22px;
+        padding-right: 10px;
+      }
+
+      .items-menu {
+        font-size: 13px;
+        padding-right: 10px;
+        padding-left: 20px;
+        display: inline-block;
+      }
+
+      .header a {
+        text-decoration: none;
+        color: #000000;
+      }
+
+      .header a:hover {
+        text-decoration: underline;
+      }
+
+      .menu {
+        background-color: white;
+        border: none;
+        outline: none;
+        box-shadow: none;
+        padding-right: none;
+      }
+
+      .profile-image {
+        border-radius: 50%;
+        margin: -1px;
+        overflow: hidden;
+        position: relative;
+        height: 32px;
+        cursor: pointer;
+        width: 32px;
+        vertical-align: middle;
+      }
+
+      .container {
+        padding-top: 140px;
+        padding-bottom: 160px;
+      }
+
+      .search {
+        font-size: 13px;
+        margin: auto;
+        margin-top: 30px;
+        padding: 14px;
+        width: 600px;
+        color: #222;
+        border: 1px solid #dfe1e5;
+        border-radius: 24px;
+        outline: none;
+      }
+
+      .container .search:hover {
+        box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+        border-color: rgba(223, 225, 229, 0);
+      }
+
+      .container .search:focus-within {
+        box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+        border-color: rgba(223, 225, 229, 0);
+      }
+
+      .input {
+        text-align: left;
+        width: 95%;
+        border: none;
+        outline: none;
+      }
+
+      .voice-search-icon {
+        float: right;
+        cursor: pointer;
+        height: 24px;
+        width: 24px;
+      }
+
+      .btn-section {
+        display: inline-block;
+        padding-top: 33px;
+        padding: 30px;
+      }
+
+      .btn-search-google {
+        margin-right: 7px;
+        height: 36px;
+        cursor: pointer;
+        color: #5f6368;
+        font-size: 14px;
+      }
+
+      .btn-search-google:hover {
+        border: 1.5px solid lightslategray;
+        color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    {% block main %}{% endblock %}
+  </body>
+</html>

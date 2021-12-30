@@ -1,0 +1,94 @@
+{% extends "base.html" %} {% block title %} Home {% endblock %} {% block main %}
+
+<!-- Main -->
+
+<header id="header">
+  <div class="top-bar">
+    <a class="google-image-icon" href="/">
+      <img
+        class="search-bar-image"
+        src="https://www.google.com/logos/doodles/2021/seasonal-holidays-2021-6753651837109324-s.png"
+      />
+    </a>
+
+    <form action="search" method="POST">
+      {% csrf_token %}
+      <div class="search-bar">
+        <input
+          id="searchbartext"
+          type="text"
+          name="search"
+          autofocus
+          x-webkit-speech
+        />
+        <button type="submit" class="search-bar-mic-button">
+          <img
+            src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-25-512.png"
+          />
+        </button>
+
+        <button type="submit" class="search-bar-button">
+          <svg
+            focusable="false"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </form>
+
+    <div class="icon-box"></div>
+    <div class="icon-bell"></div>
+
+    <a href="/">
+      <img
+        class="profile-image-google"
+        draggable="false"
+        src="https://avatars.githubusercontent.com/u/60948849?v=4"
+      />
+    </a>
+  </div>
+
+  <div class="bar-option">
+    <ul class="menu-option-list-item">
+      <li id="menu-option-active">Todas</li>
+      <li>Notícias</li>
+      <li>Vídeos</li>
+      <li>Imagens</li>
+      <li>Maps</li>
+      <li>Mais</li>
+    </ul>
+  </div>
+</header>
+
+{% if final_result %} {% for result in final_result %}
+<section class="search-result-area">
+  <div class="search-result">
+    <h2 id="sh3">{{result.0}}</h2>
+    <a href="{{ result.1 }}" id="fh3">{{ result.1 }}</a> <button>▼</button>
+    <p id="th3">{{ result.2 }}</p>
+  </div>
+</section>
+{% endfor %} {% endif %}
+
+<footer class="footer">
+  <div class="footer-lacal-data">
+    <p>Somewhere, Moon</p>
+    <p>
+      - From your phone (Location History) - Use precise location - Learn more
+    </p>
+  </div>
+
+  <ul class="footer-menu">
+    <li>Help</li>
+    <li>Send feedback</li>
+    <li>Privacy</li>
+    <li>Terms</li>
+  </ul>
+</footer>
+
+{% endblock %}
